@@ -13,17 +13,6 @@ class _LoginPageState extends State<LoginPage> {
       body: Center(
         child: Column(
           children: [
-            Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage(
-                      "assets/images/cover.png",
-                    ),
-                  ),
-                ),
-              ),
-            ),
             //
             Padding(
               padding: const EdgeInsets.symmetric(
@@ -31,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
                 vertical: 12.0,
               ),
               child: Text(
-                "Create and Manage your Notes",
+                "Sign up",
                 style: TextStyle(
                   fontSize: 36.0,
                   fontFamily: "lato",
